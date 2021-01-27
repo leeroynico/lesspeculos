@@ -31,7 +31,7 @@ a{
 /*--card title specify--*/
 .card-title{
     font-family: 'Indie Flower', cursive;
-    font-size: 22px;
+    font-size: 1.8rem;
     line-height: 26px;
     text-align: center;
     text-decoration-line: underline;    
@@ -43,8 +43,9 @@ a{
     text-decoration: none;
     color: black;
 }
-
-
-
+/*--footer--*/
+footer{
+    background: linear-gradient(180deg, #F2A9E6 0%, rgba(243, 97, 97, 0) 100%);;
+}
 
 
