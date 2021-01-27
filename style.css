@@ -1,9 +1,11 @@
 a{
     color: black;
 }
- /*--font global--*/
+
+
  .card-text{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
  }
  /*--img background for header-nav--*/
 .img-fond-nav{
@@ -20,15 +22,12 @@ a{
     transition-duration: 500ms;
     transform: rotate(2deg);
     box-shadow: 6px 8px 2px 5px rgba(0, 0, 0, 0.11);
+ 
 }
-
 #carte1:hover{
     transition-duration: 500ms;
     transform: rotate(0deg);
 }
-
-
-
 /*--card title specify--*/
 .card-title{
     font-family: 'Indie Flower', cursive;
@@ -38,12 +37,13 @@ a{
     text-decoration-line: underline;    
 }
 /*--buton spec--*/
-#btn,#btn2,#btn-close{
+#btn,#btn2{
     background: linear-gradient(180deg, #F2A9E6 0%, rgba(243, 97, 97, 0) 100%);
     border-radius: 28px;
     text-decoration: none;
     color: black;
 }
+
 
 
 
