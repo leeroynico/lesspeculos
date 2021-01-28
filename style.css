@@ -6,7 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
  }
- /*--img background for header-nav--*/
+ /*--header-nav--*/
+ #subtitle{
+    font-style: italic;
+}
 .img-fond-nav{
     width: 100%;
     height: 18%;
