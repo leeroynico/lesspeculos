@@ -24,9 +24,6 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="evenements.html">les dates à venir</a>
-                    </li>
-                    <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="#">youtube</a>
                     </li>  
                      
@@ -35,69 +32,47 @@
     </nav>
     <p class="text-start ms-2" id="subtitle">l'humour comme arme de dérision massive</p>
 </header>
-<!-- card show mus-->
-<div class="container-fluid">
-    <div class="row mt-4">
-        <div class="col-11 col-md-4">
-                <div class="card mt-5" id="carte1">
-                    <div class="card-title mx-1 mt-2">Spectacle : “C’est con!”</div>
-                    <div class="card-text mx-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat.
-                    </div>
-                    <img src="img/showmus.jpg" alt="afficheshow" class="img-fluid mx-5">
-                    <button type="button" class="btn btn-link col-5 mx-auto my-2" id="btn">
-                        <a href="#"></a>
-                        Venir voir</button>
-                </div>
-        </div>
+
 <!-- card un peu d'histoire-->
-        <div class="col-11 col-md-4">
+        <div class="col-11 col-md-4 mx-auto">
             <div class="card mt-5" id="carte1">
-                <div class="card-title mx-1 mt-2">Un peu d'histoire</div>
-                <div class="card-text mx-3">La Cie Les Spéculos est une association de type loi 1901, 
-                    qui a vu le jour en novembre 2000, sous l’impulsion de 5 comédiens : Mustapha Lagragui, 
-                    Jaouad El Habbaz, Nicolas Leroy, Laurent Lecuppre et Nordine Lagragui.
-                    Très vite, la troupe s’illustre avec ses premiers sketchs dans Spéculos‘Story, 
-                    récompensé aux Biennales départementales du théâtre amateur de 2001.
-                </div>
-                <img src="img/muzzle.jpg" alt="afficheshow" class="img-fluid mx-5">
+                <div class="card-title mx-1 mt-2">Toutes nos dates ! lol </div>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">date</th>
+                        <th scope="col">lieu</th>
+                        <th scope="col">Spectacle</th>
+                        <th scope="col">contact</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">16/12/2023</th>
+                        <td>intermarché Bily Berclau</td>
+                        <td>muzzle</td>
+                        <td>interdit</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">16/12/2028</th>
+                        <td>Auchan drive Sallaumines</td>
+                        <td>C'est con!</td>
+                        <td>interdit</td>
+                      </tr>  
+                    </tbody>
+                  </table>
                 <button type="button" class="btn btn-link col-5 mx-auto my-2" data-bs-toggle="modal" data-bs-target="#modal" id="btn2">
-                   Back to...
+                  réservez
                 </button>
             </div>
         </div>
-<!-- card un biscuit-->
-        <div class="col-11 col-md-4">
-            <div class="card mt-5" id="carte1">
-                <div class="card-title mx-1 mt-2">Un biscuit, mais pas que...</div>
-                <div class="card-text mx-3">Les Spéculos, c’est aussi, et ce, depuis leurs débuts, l’utilisation de l’humour comme arme de dérision massive.
-                    Et il nous semble que l’humour demeure le meilleur moyen de transmettre des messages aux sujets parfois graves (voire aigus...)
-                    Garanties « Sans O.G.M. » (Œuvres Géné- ralement Modifiées), nos créations sont certifiées « B.I.O. » (Burlesques, Intelligentes et Originales). Avec pour but revendiqué, le divertissement dans l’authenticité ! Spéculossement vôtre,
-                </div>
-                <img src="img/chansons.jpg" alt="afficheshow" class="img-fluid mx-5">
-            </div>
-        </div>
-    </div>
-<!-- card nous contacter-->
-    <div class="row">
-        <div class="col-11 col-md-5 mx-auto">
-            <div class="card mt-5" id="carte1">
-                <div class="card-title mx-1 mt-2">Nous contacter</div>
-                <div class="card-text mx-3">Vous pouvez nous contater par mail : 
-                   <a href="mailto:lesspeculos@hotmail.fr" id="link"> lesspeculos@hotmail.fr</a> ou par téléphonne au 
-                </div>
-            </div>
-        </div>
-    </div>
-</div>   
+
 <!-- fenêtre Modal -->
 <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalLabel">88 miles à l'heure Marty! </h5>
+          <h5 class="modal-title" id="modalLabel">Attention COVID </h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -105,7 +80,7 @@
                 <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
                 <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
             </svg>
-                Veuillez vous munir d'une delorean et contacter Doc!
+                Veuillez vous munir d'un cabat et d'une CB
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
                 <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
                 <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
@@ -115,7 +90,7 @@
     </div>
 </div>
 
-<footer class="footer mt-4 py-3">
+<footer class="footer mt-4 py-3" id="footerp2">
     <div class="d-flex justify-content-evenly">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
             <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -130,6 +105,7 @@
     </div>
   </footer>
 
+  
    
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
