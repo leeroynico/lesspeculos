@@ -1,9 +1,8 @@
-a{
+#link {
     color: black;
+    text-decoration: none;
 }
-
-
- .card-text{
+.card-text{
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
  }
@@ -45,7 +44,8 @@ a{
 }
 /*--footer--*/
 footer{
-    background: linear-gradient(180deg, #F2A9E6 0%, rgba(243, 97, 97, 0) 100%);;
+    background: linear-gradient(180deg, #F2A9E6 0%, rgba(243, 97, 97, 0) 100%);
+    font-size: .8rem;;
 }
 
 
