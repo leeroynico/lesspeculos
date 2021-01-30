@@ -10,6 +10,10 @@
     <!--bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Site Web Les Spéculos</title>
+    <!--favicon -->
+    <link rel="icon" type="image/png" href="img/logos/logo.png" >
+    <meta name="description" content="association de théâtre qui utilise l'humour comme arme de dérision massive">
+
 </head>
 <body>
 <!-- menu nav top -->
@@ -22,9 +26,19 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="evenements.html">les dates à venir</a>
+                <ul class="navbar-nav justify-content-center ">
+                    <li class="nav-item pt-1">
+                        <a class="nav-link" aria-current="page" href="evenements.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-date" viewBox="0 0 16 16">
+                                <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"/>
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                            </svg>
+                            les dates à venir 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-date" viewBox="0 0 16 16">
+                            <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"/>
+                            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                        </svg>
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" 
@@ -32,18 +46,18 @@
                             <img src="img/logos/Youtube.png" alt="youtubelogo" class="img-fluid">
                         </a>
                     </li>  
-                     
+                </ul>   
             </div>
         </div>
     </nav>
-    <p class="text-start ms-2" id="subtitle">l'humour comme arme de dérision massive</p>
+        <h1 class="text-start ms-2" id="subtitle">l'humour comme arme de dérision massive</h1>
 </header>
 <!-- card show mus-->
 <div class="container-fluid">
     <div class="row mt-4">
         <div class="col-11 col-md-4">
                 <div class="card mt-5" id="carte1">
-                    <div class="card-title mx-1 mt-2">Spectacle : “C’est con!”</div>
+                    <div class="card-title mx-1 mt-2"><h2>Spectacle : “C’est con!”</h2></div>
                     <div class="card-text mx-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
                         ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -58,7 +72,7 @@
 <!-- card un peu d'histoire-->
         <div class="col-11 col-md-4">
             <div class="card mt-5" id="carte1">
-                <div class="card-title mx-1 mt-2">Un peu d'histoire</div>
+                <div class="card-title mx-1 mt-2"><h2>Un peu d'histoire</h2></div>
                 <div class="card-text mx-3">La Cie Les Spéculos est une association de type loi 1901, 
                     qui a vu le jour en novembre 2000, sous l’impulsion de 5 comédiens : Mustapha Lagragui, 
                     Jaouad El Habbaz, Nicolas Leroy, Laurent Lecuppre et Nordine Lagragui.
@@ -74,7 +88,7 @@
 <!-- card un biscuit-->
         <div class="col-11 col-md-4">
             <div class="card mt-5" id="carte1">
-                <div class="card-title mx-1 mt-2">Un biscuit, mais pas que...</div>
+                <div class="card-title mx-1 mt-2"><h2>Un biscuit, mais pas que...</h2></div>
                 <div class="card-text mx-3">Les Spéculos, c’est aussi, et ce, depuis leurs débuts, l’utilisation de l’humour comme arme de dérision massive.
                     Et il nous semble que l’humour demeure le meilleur moyen de transmettre des messages aux sujets parfois graves (voire aigus...)
                     Garanties « Sans O.G.M. » (Œuvres Géné- ralement Modifiées), nos créations sont certifiées « B.I.O. » (Burlesques, Intelligentes et Originales). Avec pour but revendiqué, le divertissement dans l’authenticité ! Spéculossement vôtre,
@@ -125,6 +139,8 @@
             <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
         </svg>
         <span class="text mx-auto">site réalisé par <a href ="https://leeroynico.github.io/portfolio/" target="blank" id="link">leeroynico </a>
+        </span>
+        <span class="text mx-auto"><a href ="index.html"id="link">remonter en haut de page</a>
         </span>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
         <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
