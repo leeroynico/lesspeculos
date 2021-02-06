@@ -1,5 +1,11 @@
-
-#link {
+/* Custom properties */
+:root{
+    --pink-color : linear-gradient(180deg, #F2A9E6 0%, rgba(243, 97, 97, 0) 100%);
+}
+/* general properties */
+#link,
+#link2
+{
     color: black;
     text-decoration: none;
 }
@@ -22,18 +28,15 @@
 ul>li {
     font-size: 1.2rem;
 }
-
-
 /*--styles cartes--*/
-#carte1{
+.card {
     border-radius: 20px;
     border: 1px solid #A6A5A5;
     transition-duration: 500ms;
     transform: rotate(2deg);
     box-shadow: 6px 8px 2px 5px rgba(0, 0, 0, 0.11);
- 
 }
-#carte1:hover{
+.card:hover{
     transition-duration: 500ms;
     transform: rotate(0deg);
 }
@@ -46,15 +49,26 @@ ul>li {
     text-decoration-line: underline;    
 }
 /*--buton spec--*/
-#btn,#btn2{
-    background: linear-gradient(180deg, #F2A9E6 0%, rgba(243, 97, 97, 0) 100%);
+#btn,#btn2,
+#btnGroupDrop1
+{
+    background: var(--pink-color);
     border-radius: 28px;
     text-decoration: none;
     color: black;
 }
+#btnGroupDrop1{
+    border: 0px;
+}
+/*--img en construction--*/
+figure>img{
+    border-radius: 20px;
+    border: 1px solid #A6A5A5;
+    box-shadow: 6px 8px 2px 5px rgba(0, 0, 0, 0.11);
+}
 /*--footer--*/
-footer{
-    background: linear-gradient(180deg, #F2A9E6 0%, rgba(243, 97, 97, 0) 100%);
+.footer{
+    background: var(--pink-color);
     font-size: .8rem;
 }
 #footerp2{
